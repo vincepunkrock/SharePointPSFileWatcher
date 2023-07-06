@@ -6,7 +6,7 @@ Powershell Script that watches for creation, change or renaming of files and upl
 - Meant to accelerate the development of SharePoint classic WebParts (Html, js and css files that must be uploaded to a SharePoint library)
 
 ## How to use
-- Change the script to use yoru own SharePoint tenant and library
+- Change the script to use your own SharePoint tenant and library
 - Execute the script, passing it the 'Path' argument like so:
   `.\FileWatcher.ps1 -Path "C:\Users\Vincent\dev\"`
 - Do your programming as you normally do
