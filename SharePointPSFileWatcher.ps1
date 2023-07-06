@@ -11,7 +11,7 @@ param(
 )
 
 # What is the target SharePoint site URL for the upload? 
-$spoSite = 'https://hydrothi.sharepoint.com/mandats/HMI/' 
+$spoSite = 'https://[tenant].sharepoint.com/sites/[MySite]' 
 
 # What is the target document library relative to the site URL? 
 $spoDocLibrary = 'Style Library/scripts/DEV' 
